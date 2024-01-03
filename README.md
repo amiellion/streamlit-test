@@ -15,7 +15,7 @@
   pip install -r requirements.txt  # Install dependencies from the file
   ```
 
-## Running React AG Grid
+## Running React AG Grid ( deprecated ) -> <span style="color: #E74C3C;"> React AGGrid component deployed via AWS </span>
 To run React AG Grid:
 1. Navigate to `page components > aggrid_react > frontend`.
 2. Open your command prompt.
