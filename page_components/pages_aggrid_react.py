@@ -35,8 +35,10 @@ else:
     # When we're distributing a production version of the component, we'll
     # replace the `url` param with `path`, and point it to the component's
     # build directory:
+    print("RELEASE")
     parent_dir = os.path.dirname(os.path.abspath(__file__))
-    build_dir = os.path.join(parent_dir, "frontend/build")
+    build_dir = os.path.join(parent_dir, "aggrid_react\\frontend\\dist")
+    print(build_dir)
     _component_func = components.declare_component("my_component", path=build_dir)
 
 
