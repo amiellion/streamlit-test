@@ -21,6 +21,8 @@ _RELEASE = False
 # best practice.
 
 if not _RELEASE:
+    my_url="https://master.d3mtcpvh9hgfk1.amplifyapp.com/"
+    print(f"NOT RELEASE {my_url}")
     _component_func = components.declare_component(
         # We give the component a simple, descriptive name ("my_component"
         # does not fit this bill, so please choose something better for your
@@ -29,7 +31,8 @@ if not _RELEASE:
         # Pass `url` here to tell Streamlit that the component will be served
         # by the local dev server that you run via `npm run start`.
         # (This is useful while your component is in development.)
-        url="http://localhost:3001",
+        # url="http://localhost:3001",
+        url=my_url,
     )
 else:
     # When we're distributing a production version of the component, we'll
