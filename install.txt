@@ -1,3 +1,6 @@
 python -m venv .venv  # Create a new virtual environment
 .venv\Scripts\activate.bat  # Activate the virtual environment (on Windows)
 pip install -r requirements.txt  # Install dependencies from the file
+
+
+To run react aggrid go to page components > aggrid_react > frontend , then in cmd enter npm start
