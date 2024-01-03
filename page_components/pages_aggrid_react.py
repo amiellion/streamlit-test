@@ -96,6 +96,8 @@ def aggrid_react(page_names_to_funcs):
     st.write(
         """
         This demo shows how to use `AgGrid` as React component to visualize data.
+        
+        Based on [this example](https://streamlit-components-tutorial.netlify.app/introduction/project-setup/)
         """
     )
 
@@ -104,7 +106,7 @@ def aggrid_react(page_names_to_funcs):
     num_clicks = my_component("World")
     st.markdown("You've clicked %s times!" % int(num_clicks))
 
-    st.markdown("---")
-    st.subheader("Component with variable args")
-    my_component("React Component")
+    # st.markdown("---")
+    # st.subheader("Component with variable args")
+    # my_component("React Component")
 
