@@ -35,7 +35,6 @@ six==1.16.0
 smmap==5.0.1
 streamlit==1.29.0
 streamlit-aggrid==0.3.4.post3
--e git+https://github.com/streamlit/component-template@efd4e02684291c9e6aa395a31803f968259dc66c#egg=streamlit_custom_slider&subdirectory=template
 tenacity==8.2.3
 toml==0.10.2
 toolz==0.12.0
