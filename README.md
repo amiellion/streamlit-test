@@ -1,19 +1,19 @@
 # Setting up a Python Virtual Environment and Running React AG Grid
 
-## Creating a Python Virtual Environment
-```bash
-python -m venv .venv  # Create a new virtual environment
-```
+1. Creating a Python Virtual Environment
+- ```bash
+  python -m venv .venv  # Create a new virtual environment
+  ```
 
-## Activating the Virtual Environment (Windows)
-```bash
-.venv\Scripts\activate.bat  # Activate the virtual environment (on Windows)
-```
+2. Activating the Virtual Environment (Windows)
+- ```bash
+  .venv\Scripts\activate.bat  # Activate the virtual environment (on Windows)
+  ```
 
-## Installing Dependencies
-```bash
-pip install -r requirements.txt  # Install dependencies from the file
-```
+3. Installing Dependencies
+- ```bash
+  pip install -r requirements.txt  # Install dependencies from the file
+  ```
 
 ## Running React AG Grid
 To run React AG Grid:
